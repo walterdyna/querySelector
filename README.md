@@ -1,14 +1,14 @@
-# getElementByTagName - JavaScript
+# querySelector - JavaScript
 
 
------------------------------------ getElementByTagName -----------------------------------
+----------------------------------- querySelector -----------------------------------
 
-getElementByTagName --> Tras TODOS os elementos com essa TAG
+querySelector --> Tras UM elemneto, O PRIMEIRO que encontra
 
+Busca pela ID: Utilize document.querySelector("#id-do-elemento") para selecionar um elemento por sua ID exclusiva.
+Busca pela Classe: Utilize document.querySelector(".nome-da-classe") para selecionar um elemento por sua classe.
+Busca pela Classe e Elemento: Combine a busca por classe e elemento usando document.querySelector("elemento.nome-da-classe").
+Busca pela Tag: Utilize document.querySelector("tag-html") para selecionar elementos por sua tag HTML.
+O querySelector retorna o primeiro elemento correspondente encontrado na página ou null se nenhum elemento for encontrado.
 
-O método getElementsByTagName é usado em JavaScript para selecionar elementos em uma página da web com base em sua tag HTML.
-Ele recebe o nome da tag como parâmetro e retorna uma coleção de elementos correspondentes a essa tag.
-A função retorna uma coleção de elementos, que pode ser acessada por índices ou por meio de iteração.
-É importante ter em mente que o getElementsByTagName retorna uma coleção de elementos, não um array.
-
-
+Lembre-se de que o querySelector retorna apenas o primeiro elemento correspondente.
